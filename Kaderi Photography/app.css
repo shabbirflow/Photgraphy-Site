@@ -1,0 +1,28 @@
+img{
+    width: 30%;
+    margin: calc(10%/6);
+}
+nav{
+    text-transform: uppercase;
+    border-bottom: 4px solid #f1f1f1;
+    width: 30%;
+    margin:calc(10%/6) ;
+    font-family: 'Source Code Pro', monospace;
+    padding: 1em 0;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+nav:hover{
+    transform: scale(1.5), translateY(-1em);
+    border: 4px solid #f1f1f1;
+    padding: 1em 1em;
+    color: #333333;
+    font-size: larger;
+}
+img{
+    transition: 0.2s;
+}
+img:hover{
+    transform: scale(1.1);
+    border-radius: 1rem;
+}
